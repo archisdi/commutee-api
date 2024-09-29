@@ -1,0 +1,46 @@
+[
+    {
+        "station_name": "Dukuh Atas",
+        "station_code": "dukuhatas",
+        "schedules": {
+            "weekday": {
+                "bekasi-line": {
+                    "to-jatimulya": [
+                        "06:17",
+                        "06:28",
+                        "06:39"
+                    ]
+                },
+                "cibubur-line": {
+                    "to-harjamukti": [
+                        "06:22",
+                        "06:33",
+                        "06:44"
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "station_name": "Setiabudi",
+        "station_code": "setiabudi",
+        "schedules": {
+            "weekday": {
+                "bekasi-line": {
+                    "to-jatimulya": [
+                        "06:19",
+                        "06:31",
+                        "06:42"
+                    ]
+                },
+                "cibubur-line": {
+                    "to-harjamukti": [
+                        "06:24",
+                        "06:35",
+                        "06:47"
+                    ]
+                }
+            }
+        }
+    }
+]

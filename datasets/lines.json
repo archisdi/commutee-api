@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Bekasi Line",
+        "start": "Dukuh Atas",
+        "end": "Jati Mulya",
+        "stations": [
+            "Dukuh Atas",
+            "Setiabudi",
+            "Rasuna Said",
+            "Kuningan",
+            "Pancoran",
+            "Cikoko",
+            "Ciliwung",
+            "Cawang",
+            "Halim",
+            "Jati Bening Baru",
+            "Cikunir 1",
+            "Cikunir 2",
+            "Bekasi Barat",
+            "Jati Mulya"
+        ]
+    },
+    {
+        "name": "Cibubur Line",
+        "start": "Dukuh Atas",
+        "end": "Harjamukti",
+        "stations": [
+            "Dukuh Atas",
+            "Setiabudi",
+            "Rasuna Said",
+            "Kuningan",
+            "Pancoran",
+            "Cikoko",
+            "Ciliwung",
+            "Cawang",
+            "TMII",
+            "Kampung Rambutan",
+            "Ciracas",
+            "Harjamukti"
+        ]
+    }
+]
