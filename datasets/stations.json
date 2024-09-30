@@ -1,127 +1,129 @@
 {
-    "dukuhatas": {
-        "name": "Dukuh Atas",
-        "connections": {
-            "setiabudi": 2
-        }
-    },
-    "setiabudi": {
-        "name": "Setiabudi",
-        "connections": {
-            "rasunasaid": 3,
-            "dukuhatas": 2
-        }
-    },
-    "rasunasaid": {
-        "name": "Rasuna Said",
-        "connections": {
-            "kuningan": 2,
-            "setiabudi": 3
-        }
-    },
-    "kuningan": {
-        "name": "Kuningan",
-        "connections": {
-            "pancoran": 5,
-            "rasunasaid": 2
-        }
-    },
-    "pancoran": {
-        "name": "Pancoran",
-        "connections": {
-            "cikoko": 5,
-            "kuningan": 5
-        }
-    },
-    "cikoko": {
-        "name": "Cikoko",
-        "connections": {
-            "ciliwung": 2,
-            "pancoran": 5
-        }
-    },
-    "ciliwung": {
-        "name": "Ciliwung",
-        "connections": {
-            "cawang": 3,
-            "cikoko": 2
-        }
-    },
-    "cawang": {
-        "name": "Cawang",
-        "connections": {
-            "halim": 5,
-            "tmii": 11,
-            "ciliwung": 3
+    "stations": {
+        "dukuhatas": {
+            "name": "Dukuh Atas",
+            "connections": {
+                "setiabudi": 2
+            }
         },
-        "is_transit": true
-    },
-    "halim": {
-        "name": "Halim",
-        "connections": {
-            "jatibeningbaru": 9,
-            "cawang": 5
-        }
-    },
-    "jatibeningbaru": {
-        "name": "Jati Bening Baru",
-        "connections": {
-            "cikunir1": 5,
-            "halim": 9
-        }
-    },
-    "cikunir1": {
-        "name": "Cikunir 1",
-        "connections": {
-            "cikunir2": 3,
-            "jatibeningbaru": 5
-        }
-    },
-    "cikunir2": {
-        "name": "Cikunir 2",
-        "connections": {
-            "bekasibarat": 6,
-            "cikunir1": 3
-        }
-    },
-    "bekasibarat": {
-        "name": "Bekasi Barat",
-        "connections": {
-            "jatimulya": 5,
-            "cikunir2": 6
-        }
-    },
-    "jatimulya": {
-        "name": "Jati Mulya",
-        "connections": {
-            "bekasibarat": 5
-        }
-    },
-    "tmii": {
-        "name": "TMII",
-        "connections": {
-            "kampungrambutan": 4,
-            "cawang": 11
-        }
-    },
-    "kampungrambutan": {
-        "name": "Kampung Rambutan",
-        "connections": {
-            "ciracas": 4,
-            "tmii": 4
-        }
-    },
-    "ciracas": {
-        "name": "Ciracas",
-        "connections": {
-            "harjamukti": 9,
-            "kampungrambutan": 4
-        }
-    },
-    "harjamukti": {
-        "name": "Harjamukti",
-        "connections": {
-            "ciracas": 9
+        "setiabudi": {
+            "name": "Setiabudi",
+            "connections": {
+                "rasunasaid": 3,
+                "dukuhatas": 2
+            }
+        },
+        "rasunasaid": {
+            "name": "Rasuna Said",
+            "connections": {
+                "kuningan": 2,
+                "setiabudi": 3
+            }
+        },
+        "kuningan": {
+            "name": "Kuningan",
+            "connections": {
+                "pancoran": 5,
+                "rasunasaid": 2
+            }
+        },
+        "pancoran": {
+            "name": "Pancoran",
+            "connections": {
+                "cikoko": 5,
+                "kuningan": 5
+            }
+        },
+        "cikoko": {
+            "name": "Cikoko",
+            "connections": {
+                "ciliwung": 2,
+                "pancoran": 5
+            }
+        },
+        "ciliwung": {
+            "name": "Ciliwung",
+            "connections": {
+                "cawang": 3,
+                "cikoko": 2
+            }
+        },
+        "cawang": {
+            "name": "Cawang",
+            "connections": {
+                "halim": 5,
+                "tmii": 11,
+                "ciliwung": 3
+            },
+            "is_transit": true
+        },
+        "halim": {
+            "name": "Halim",
+            "connections": {
+                "jatibeningbaru": 9,
+                "cawang": 5
+            }
+        },
+        "jatibeningbaru": {
+            "name": "Jati Bening Baru",
+            "connections": {
+                "cikunir1": 5,
+                "halim": 9
+            }
+        },
+        "cikunir1": {
+            "name": "Cikunir 1",
+            "connections": {
+                "cikunir2": 3,
+                "jatibeningbaru": 5
+            }
+        },
+        "cikunir2": {
+            "name": "Cikunir 2",
+            "connections": {
+                "bekasibarat": 6,
+                "cikunir1": 3
+            }
+        },
+        "bekasibarat": {
+            "name": "Bekasi Barat",
+            "connections": {
+                "jatimulya": 5,
+                "cikunir2": 6
+            }
+        },
+        "jatimulya": {
+            "name": "Jati Mulya",
+            "connections": {
+                "bekasibarat": 5
+            }
+        },
+        "tmii": {
+            "name": "TMII",
+            "connections": {
+                "kampungrambutan": 4,
+                "cawang": 11
+            }
+        },
+        "kampungrambutan": {
+            "name": "Kampung Rambutan",
+            "connections": {
+                "ciracas": 4,
+                "tmii": 4
+            }
+        },
+        "ciracas": {
+            "name": "Ciracas",
+            "connections": {
+                "harjamukti": 9,
+                "kampungrambutan": 4
+            }
+        },
+        "harjamukti": {
+            "name": "Harjamukti",
+            "connections": {
+                "ciracas": 9
+            }
         }
     }
 }
