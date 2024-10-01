@@ -14,6 +14,9 @@ async function main() {
     const cibuburDeparture = require('./datasets/departures/cibubur-line.json');
 
     const departureSchedule = { ...bekasiDeparture, ...cibuburDeparture };
+
+    const dukuhAtasToJatimulya = lines[0].stations;
+    const jatimulyaToDukuhAtas = dukuhAtasToJatimulya.reverse();
 }
 
 main();
